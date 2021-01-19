@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LlamadasFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_estados"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="503dp"
+            android:layout_marginEnd="30dp"
+            android:alpha="1"
+            android:backgroundTint="@color/btn_flotante_secundario"
+            android:contentDescription="Editar"
+            android:src="@drawable/ic_videocamara"
+            app:backgroundTint="@color/btn_flotante_secundario"
+            app:fabCustomSize="50dp"
+            app:fabSize="normal"
+            app:maxImageSize="25dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="575dp"
+            android:layout_marginEnd="25dp"
+            android:backgroundTint="@color/btn_flotante_primario"
+            android:contentDescription="Nuevo mensaje"
+            android:src="@drawable/ic_camara"
+            app:fabCustomSize="62dp"
+            app:fabSize="normal"
+            app:maxImageSize="25dp"/>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/privacidad_de_estados"
+        android:title="Privacidad de estados" />
+    <item
+        android:id="@+id/ajustes_estados"
+        android:title="Ajustes" />
+    <item
+        android:id="@+id/buscar_estados"
+        android:title="Buscar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_buscar"/>
+</menu>

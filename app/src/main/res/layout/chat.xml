@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/foto_perfil"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        app:civ_border_color="@color/btn_flotante_primario"
+        app:civ_border_width="1dp"
+        android:src="@drawable/ic_person" />
+
+    <TextView
+        android:id="@+id/nombre_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="23dp"
+        android:layout_toEndOf="@+id/foto_perfil"
+        android:text="Verónica Macias Montoya"
+        android:textSize="14sp"
+        android:textColor="@color/color_nombre_chat"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/descripcion_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="47dp"
+        android:layout_toEndOf="@+id/foto_perfil"
+        android:text="Listo parse"
+        android:textSize="12sp"
+        android:textColor="@color/color_descripcion_chat"/>
+
+    <TextView
+        android:id="@+id/fecha_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:text="8:13 p.m."
+        android:textSize="11sp"
+        android:textColor="@color/color_fecha_chat" />
+
+</RelativeLayout>

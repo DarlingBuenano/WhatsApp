@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/borrar_registro_de_llamadas"
+        android:title="Borrar registro de llamadas" />
+    <item
+        android:id="@+id/ajustes_llamadas"
+        android:title="Ajustes" />
+    <item
+        android:id="@+id/buscar_llamadas"
+        android:title="Buscar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_buscar"/>
+</menu>
